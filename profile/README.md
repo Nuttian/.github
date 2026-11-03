@@ -5,8 +5,8 @@ packages that install with dpkg and apt.**
 
 Nuttian runs ordinary binary packages on a NuttX kernel build: each program
 is a process in its own address space, linked against NuttX's own C library
-as `libc.so`. The same packages, from the same sources, for 64-bit Arm,
-x86-64 and RISC-V 64. The goal is the POSIX PSE54 profile.
+as `libc.so`. The same packages, from the same sources: 64-bit Arm today,
+x86-64 and RISC-V 64 soon. The goal is the POSIX PSE54 profile.
 
 - **Try it:** <https://nuttian.org/> and the
   [proof-of-concept releases](https://github.com/Nuttian/poc-releases)
